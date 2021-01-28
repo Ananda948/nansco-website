@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Products</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+	<div class="navbar">
+		<div class="logo">
+			<img src="images/logonansco.jpg" width="125px">
+		</div>
+		<nav>
+			<ul id="MenuItems">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="thoughts.html">Thoughts</a></li>
+				<li><a href="product.html">Product</a></li>
+				<li><a href="review.html">Review</a></li>
+				<li><a href="http://localhost/contact.php">Contact</a></li>
+			</ul>
+		</nav>
+		<img src="images/cart.png" width="30px" height="30px">
+		<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+	</div>
+	
+</div>
+
+<div class="small-container">
+	<div class="row row-2">
+		<h2>All Products</h2>
+		<select>
+			<option>Auto Shorting</option>
+			<option>Short by Price</option>
+			<option>Short by Popularity</option>
+			<option>Short by Rating</option>
+			<option>Short by Sale</option>
+		</select>
+	</div>
+	<div class="row">
+		<div class="col-4">
+			<img src="images/Panasonic5w.jpg">
+			<h4>Panasonic LED NEO 5W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>Rp 18.000</p>
+		</div>
+		<div class="col-4">
+			<img src="images/Dakkar10w.jpg">
+			<h4>DAKKAR LED 10W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<p>Rp 8.000</p>
+		</div>
+		<div class="col-4">
+			<img src="images/Maxtron25w.jpg">
+			<h4>MAKTRON Premium 25W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>Rp 10.500</p>
+		</div>
+		<div class="col-4">
+			<img src="images/Panasonic5w.jpg">
+			<h4>Panasonic LED NEO 5W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>Rp 18.000</p>
+		</div>
+		<div class="col-4">
+			<img src="images/Chiyoda5w.jpg">
+			<h4>Chiyoda C PS-47 5W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<p>Rp 5.000</p>
+		</div>
+		<div class="col-4">
+			<img src="images/Dakkar5w.jpg">
+			<h4>DAKKAR LED 5W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>Rp 6.500</p>
+		</div>
+		<div class="col-4">
+			<img src="images/Nvc3w.jpg">
+			<h4>NVC LAMPU LED A50N 3W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>Rp 17.000</p>
+		</div>
+		<div class="col-4">
+			<img src="images/Dakkar15w.jpg">
+			<h4>DAKKAR LED 15W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>Rp 9.000</p>
+		</div>
+		<div class="col-4">
+			<img src="images/Nvc7w.jpg">
+			<h4>NVC LAMPU LED A60N 7W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>Rp 23.000</p>
+		</div>
+		<div class="col-4">
+			<img src="images/Panasonic3w.jpg">
+			<h4>Panasonic LED NEO 3W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>Rp 15.000</p>
+		</div>
+		<div class="col-4">
+			<img src="images/Rolinson5w.jpg">
+			<h4>Rolinson 5W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<p>Rp 12.000</p>
+		</div>
+		<div class="col-4">
+			<img src="images/Panasonic9w.jpg">
+			<h4>Panasonic LED NEO 9W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>Rp 32.000</p>
+		</div>
+		<div class="col-4">
+			<img src="images/Proforce30w.jpg">
+			<h4>PROFORCE ECO FIT 30W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<p>Rp 30.000</p>
+		</div>
+		<div class="col-4">
+			<img src="images/Zenich5w.jpg">
+			<h4>ZENICH LED 5W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<p>Rp 12.000</p>
+		</div>
+		<div class="col-4">
+			<img src="images/PanasonicEnergy15w.jpg">
+			<h4>Panasonic Energy (Ulir) 15W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>Rp 33.000</p>
+		</div>
+		<div class="col-4">
+			<img src="images/Zenich10w.jpg">
+			<h4>ZENICH LED 10W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<p>Rp 15.000</p>
+		</div>
+	</div>
+		<div class="page-btn">
+			<span>1</span>
+			<span>2</span>
+			<span>3</span>
+			<span>4</span>
+			<span>&#8594;</span>
+			
+		</div>
+		<a href="https://wa.me/6288228905607" class="btn">Buy Now</a>
+		<br>
+		<br>
+		<br>
+</div>
+<!-- Footer -->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Location</h3>
+				<p>Kudus, Central Java, Indonesia</p>
+			</div>
+			<div class="footer-col-2">
+				<img src="images/logonansco.jpg">
+			</div>
+			<div class="footer-col-3">
+				<h3>Contact Below</h3>
+				<p>Email: prsananda14@gmail.com</p>
+			</div>
+		</div>
+		<hr>
+		<br>
+		<p class="copyright">Copyright 2021 - Nansco</p>
+		
+	</div>
+	
+</div>
+<!------ js for toggle menu ------>
+<script>
+	var MenuItems = document.getElementById("MenuItems");
+
+	MenuItems.style.maxHeight = "0px";
+
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+		{
+			MenuItems.style.maxHeight == "200px";
+		}
+		else
+		{
+			MenuItems.style.maxHeight = "0px";
+		}
+	}
+</script>
+
+</body>
+</html>

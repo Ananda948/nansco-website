@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thoughts</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+	<div class="navbar">
+		<div class="logo">
+			<img src="images/logonansco.jpg" width="125px">
+		</div>
+		<nav>
+			<ul id="MenuItems">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="thoughts.html">Thoughts</a></li>
+				<li><a href="product.html">Product</a></li>
+				<li><a href="review.html">Review</a></li>
+				<li><a href="http://localhost/contact.php">Contact</a></li>
+			</ul>
+		</nav>
+		<img src="images/cart.png" width="30px" height="30px">
+		<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+	</div>
+</div>
+<div class="opini">
+	<div class="small-container">
+		<h2 class="title2">Social Thoughts</h2>
+		<div class="row">
+			<div class="col-2">
+				<img src="images/opini.jpg" class="opini-img">
+			</div>
+			<div class="col-2">
+				<p>Yuk Ngomongin Tentang Kesetaraan Gender</p>
+				<h1>Gender Equality</h1>
+				<small>Apa sih yang dimaksud dengan kesetaraan gender atau istilah keren nya itu "Gender Equality"? Aku yakin sih pasti dari kalian terutama generasi millenial ada yang udah pernah dengar masalah ini. Yuk kita simak ulasan berikut ini! Cekidot!</small>
+			</div>
+			<a href="gender.html" class="btn">Read Now &#8594;</a>
+		</div>
+		<hr>
+		<div class="row">
+		<div class="col-2">
+			<img src="images/whalien.jpg" class="whalien-img">
+		</div>
+		<div class="col-2">
+			<p>Ada Yang Pernah Denger Tentang "The Most Lonely Whale In The World?"</p>
+			<h1>Paus 52-HZ</h1>
+			<small>The most lonely whale in the world. Jujur, apa sih yang kalian pikirkan saat pertama kali dengar kalimat itu? Paus? Kesepian? Yah, benar sekali, tapi bukan sekadar itu saja, namun ada banyak hal menarik yang pastinya harus kita simak lebih lanjut. So, let's get it >>></small>
+		</div>
+		<a href="whalien.html" class="btn">Read Now &#8594;</a>
+		</div>
+	</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Location</h3>
+				<p>Kudus, Central Java, Indonesia</p>
+			</div>
+			<div class="footer-col-2">
+				<img src="images/logonansco.jpg">
+			</div>
+			<div class="footer-col-3">
+				<h3>Contact Below</h3>
+				<p>Email: prsananda14@gmail.com</p>
+			</div>
+		</div>
+		<hr>
+		<br>
+		<p class="copyright">Copyright 2021 - Nansco</p>
+		
+	</div>
+	
+</div>
+<!------ js for toggle menu ------>
+<script>
+	var MenuItems = document.getElementById("MenuItems");
+
+	MenuItems.style.maxHeight = "0px";
+
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+		{
+			MenuItems.style.maxHeight == "200px";
+		}
+		else
+		{
+			MenuItems.style.maxHeight = "0px";
+		}
+	}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nansco</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="header">
+	<div class="container">
+	<div class="navbar">
+		<div class="logo">
+			<img src="images/logonansco.jpg" width="125px">
+		</div>
+		<nav>
+			<ul id="MenuItems">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="thoughts.html">Thoughts</a></li>
+				<li><a href="product.html">Product</a></li>
+				<li><a href="review.html">Review</a></li>
+				<li><a href="http://localhost/contact.php">Contact</a></li>
+			</ul>
+		</nav>
+		<img src="images/cart.png" width="30px" height="30px">
+		<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+	</div>
+	<div class="row">
+		<div class="col-2">
+			<h1>Find Anything Here!<br>Let's Join Us!</h1>
+			<a href="thoughts.html" class="btn">Let's Try</a>
+		</div>
+		<div class="col-2">
+			<img src="images/background1.jpg">
+		</div>
+		
+	</div>
+</div>
+</div>
+<!--	categories	-->
+<div class="categories">
+	<div class="small-container">
+	<div class="row">
+		<div class="col-3">
+			<img src="images/categories1.jpeg">
+			<h4><a href="review.html">Beauty Review</a></h4>
+		</div>
+		<div class="col-3">
+			<img src="images/categories2.jpeg">
+			<h4><a href="thoughts.html">Social Life</a></h4>
+		</div>
+		<div class="col-3">
+			<img src="images/categories3.jpeg">
+			<h4><a href="product.html">Products</a></h4>
+		</div>
+	</div>
+		
+	</div>
+	
+</div>
+<!-- Featured Products -->
+<div class="small-container">
+	<h2 class="title">Featured Products</h2>
+	<div class="row">
+		<div class="col-4">
+			<img src="images/Panasonic5w.jpg">
+			<h4>Panasonic LED NEO 5W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>Rp 18.000</p>
+		</div>
+		<div class="col-4">
+			<img src="images/Dakkar10w.jpg">
+			<h4>DAKKAR LED 10W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<p>Rp 8.000</p>
+		</div>
+		<div class="col-4">
+			<img src="images/Maxtron25w.jpg">
+			<h4>MAKTRON Premium 25W</h4>
+			<div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>Rp 10.500</p>
+		</div>
+		<a href="product.html" class="btn">See More &#8594;</a>
+	</div>
+</div>
+<!-- Thoughts -->
+<div class="opini">
+	<div class="small-container">
+		<h2 class="title2">Social Thoughts</h2>
+		<div class="row">
+			<div class="col-2">
+				<img src="images/opini.jpg" class="opini-img">
+			</div>
+			<div class="col-2">
+				<p>Yuk Ngomongin Tentang Kesetaraan Gender</p>
+				<h1>Gender Equality</h1>
+				<small>Apa sih yang dimaksud dengan kesetaraan gender atau istilah keren nya itu "Gender Equality"? Aku yakin sih pasti dari kalian terutama generasi millenial ada yang udah pernah dengar masalah ini. Yuk kita simak ulasan berikut ini! Cekidot!</small>
+			</div>
+				<a href="gender.html" class="btn">Read Now &#8594;</a>
+
+			
+		</div>
+		
+	</div>
+	
+</div>
+<!-- Footer -->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Location</h3>
+				<p>Kudus, Central Java, Indonesia</p>
+			</div>
+			<div class="footer-col-2">
+				<img src="images/logonansco.jpg">
+			</div>
+			<div class="footer-col-3">
+				<h3>Contact Below</h3>
+				<p>Email: prsananda14@gmail.com</p>
+			</div>
+		</div>
+		<hr>
+		<br>
+		<p class="copyright">Copyright 2021 - Nansco</p>
+		
+	</div>
+	
+</div>
+<!------ js for toggle menu ------>
+<script>
+	var MenuItems = document.getElementById("MenuItems");
+
+	MenuItems.style.maxHeight = "0px";
+
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+		{
+			MenuItems.style.maxHeight == "200px";
+		}
+		else
+		{
+			MenuItems.style.maxHeight = "0px";
+		}
+	}
+</script>
+
+</body>
+</html>
